@@ -4,11 +4,333 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel service landing</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div class="main"></div>
-    <div class="main"></div>
-    <div class="main"></div>
+<main class="wrapper">
+    <section class="first-screen">
+        <div class="container container_column">
+            <header class="header">
+                <div class="logo">Treloo</div>
+                <nav class="menu">
+                    <a href="#reviev" class="menu__item">Review</a>
+                    <a href="#tips" class="menu__item">Tips</a>
+                    <a href="#alerts" class="menu__item">Alerts</a>
+                    <a href="#blog" class="menu__item">Blog</a>
+                    <div class="menu__item menu__item_active">Blog</div>
+                </nav>
+            </header>
+            <div class="firts-screen__content">
+                <h1 class="firts-screen__tittle">Discover Your Life, Travel Where You Want</h1>
+                <div class="first-screen__description">Would you explore natur paradise in the world, let’s find the best destination in world with us.</div>
+            </div>   
+        </div>
+    </section>
+    <section class="search-block">
+        <div class="container">
+            <div class="search">
+                <div class="search__tabs">
+                    <div class="search__tab search__tab_active">
+                        <div class="search__tab-img search__tab-img_1
+                        "></div>
+                        <span>Flight</span>
+                    </div>                       
+                    <div class="search__tab">
+                        <div class="search__tab-img search__tab-img_2"></div>
+                        <span>Hotel</span>
+                    </div>
+                </div>
+                <div class="search__filters">
+                    <div class="filter">
+                        <div class="filter__item">
+                            <div class="filter__name">Living From</div>
+                            <div class="filter__value">Dubai</div>
+                        </div>
+                        <div class="filter__icon"></div>
+                        <div class="filter__item">
+                            <div class="filter__name">Going to</div>
+                            <div class="filter__value">New York</div>
+                        </div>
+                    </div>
+                    <div class="filter filter__date">
+                        <div class="filter__item">
+                            <div class="filter__name">
+                                <span>Leave</span>
+                                <div class="filter__name-icon"></div>
+                            </div>
+                            <div class="filter__value">23 Jan, Sat</div>
+                        </div>
+                        <div class="filter__icon filter__icon_2"></div>
+                        <div class="filter__item">
+                            <div class="filter__name">
+                                <span>Return</span>
+                                <div class="filter__name-icon filter__name-icon_return"></div>
+                            </div>
+                            <div class="filter__value">14 Jan, Thu</div>
+                        </div>
+                    </div>
+                    <div class="search__button">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tips" class="special-block">
+        <div class="container">
+            <h2 class="tittle tittle_center">Special Upcoming Offers</h2>
+            <div class="tabs">
+                <div class="tabs__content">
+                <div class="tabs__item tabs__item_active">Team</div>
+                <div class="tabs__item">Couple</div>
+                <div class="tabs__item">Family</div>
+                </div>
+            </div>
+          <div class="special-block__cards">
+            <div class="card">
+                <div class="card__top">
+                    <img src="/images/card/1.jpg" alt="" class="card__photo">
+                    <div class="card__date"><span>14 FEB 2022</span></div>
+                </div>
+                <div class="card__bottom">
+                    <div class="card__params">
+                        <div class="card__badge">Relax</div>
+                        <div class="card__duration">3 Days, 3 Nights</div>
+                    </div>
+                    <div class="card__tittle">Loga Sea</div>
+                    <div class="card__total">
+                        <div class="card__price">
+                            <strong>700$</strong>
+                            <span>/Person</span>
+                        </div>
+                        <div class="card__button">Book Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+                    <img src="/images/card/2.jpg" alt="" class="card__photo">
+                    <div class="card__date"><span>18 JUN 2022</span></div>
+                </div>
+                <div class="card__bottom">
+                    <div class="card__params">
+                        <div class="card__badge card__badge_second">Adventure</div>
+                        <div class="card__duration">4 Days, 3 Nights</div>
+                    </div>
+                    <div class="card__tittle">Ansgar Scheffold</div>
+                    <div class="card__total">
+                        <div class="card__price">
+                            <strong>400$</strong>
+                            <span>/Person</span>
+                        </div>
+                        <div class="card__button">Book Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+                    <img src="/images/card/3.jpg" alt="" class="card__photo">
+                    <div class="card__date"><span>22 DEC 2022</span></div>
+                </div>
+                <div class="card__bottom">
+                    <div class="card__params">
+                        <div class="card__badge">Relax</div>
+                        <div class="card__duration">7 Days, 6 Nights</div>
+                    </div>
+                    <div class="card__tittle">Lona X</div>
+                    <div class="card__total">
+                        <div class="card__price">
+                            <strong>340$</strong>
+                            <span>/Person</span>
+                        </div>
+                        <div class="card__button">Book Now</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>  
+    </section>
+    <section id="blog" class="about-block">
+      <div class="container">
+          <div class="statictic">
+              <img src="/images/statistic.jpg" alt="Статистика" class="statictic__img">
+              <div class="statictic__badge">
+                  <strong>300+</strong>
+                  <span>DESTINATIONS</span>
+              </div>
+              <div class="statictic__badge statictic__badge_2">
+                  <strong>5000+</strong>
+                  <span>TOURISTS</span>
+              </div>
+              <div class="statictic__badge statictic__badge_3">
+                  <strong>150+</strong>
+                  <span>HOTELS</span>
+              </div>
+          </div>
+          <div class="description">
+            <h2 class="tittle">Travel Any Corner of The World With Us</h2>
+            <div class="description__text">
+                <p>Would you explore nature paradise in the world, let’s find the best destination in world with us, Would you explore nature paradise in the world, let’s find the best destination in world with us. Would you explore nature paradise in the world, let’s find the best destination in world with us.</p>
+                <p>Would you explore nature paradise in the world, let’s find the best destination in world with us.</p>
+            </div>
+            <div class="button">Contact Us</div>
+          </div>
+      </div>
+    </section>
+    <section id="alerts" class="destination-block">
+        <div class="container">
+            <h2 class="tittle tittle_center">Recommended Destination</h2>
+            <div class="tabs tabs__opacity">
+                <div class="tabs__content">
+                <div class="tabs__item tabs__item_active">Populor</div>
+                <div class="tabs__item">Adventure</div>
+                <div class="tabs__item">Beath</div>
+                </div>
+            </div>
+            <div class="destination-block__cards">
+                <div class="card card__destination">
+                    <div class="card__top">
+                        <img src="/images/card_mini/card_mini_1.jpg" alt="" class="card__photo">
+                        <div class="card__rating">
+                            <div class="rating">
+                                <div class="rating__img"></div>
+                                <span>3.4</span>
+                            </div>
+                        </div>
+                    </div>
+                <div class="card__bottom">
+                        <div class="card__tittle">Kina Mountain</div>
+                        <div class="card__address">
+                        <div class="card__address-icon"></div>
+                        <span>Cambodia</span>
+                        </div>
+                </div>
+                </div>
+                <div class="card card__destination">
+                    <div class="card__top">
+                        <img src="/images/card_mini/card_mini_2.jpg" alt="" class="card__photo">
+                        <div class="card__rating">
+                            <div class="rating">
+                                <div class="rating__img"></div>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                    </div>
+                <div class="card__bottom">
+                        <div class="card__tittle">Kina Mountain</div>
+                        <div class="card__address">
+                        <div class="card__address-icon"></div>
+                        <span>Cambodia</span>
+                        </div>
+                </div>
+                </div>
+                <div class="card card__destination">
+                    <div class="card__top">
+                        <img src="/images/card_mini/card_mini_3.jpg" alt="" class="card__photo">
+                        <div class="card__rating">
+                            <div class="rating">
+                                <div class="rating__img"></div>
+                                <span>4.2</span>
+                            </div>
+                        </div>
+                    </div>
+                <div class="card__bottom">
+                        <div class="card__tittle">Kina Mountain</div>
+                        <div class="card__address">
+                        <div class="card__address-icon"></div>
+                        <span>Cambodia</span>
+                        </div>
+                </div>
+                </div>
+                <div class="card card__destination">
+                    <div class="card__top">
+                        <img src="/images/card_mini/card_mini_4.jpg" alt="" class="card__photo">
+                        <div class="card__rating">
+                            <div class="rating">
+                                <div class="rating__img"></div>
+                                <span>3.5</span>
+                            </div>
+                        </div>
+                    </div>
+                <div class="card__bottom">
+                        <div class="card__tittle">Kina Mountain</div>
+                        <div class="card__address">
+                        <div class="card__address-icon"></div>
+                        <span>Cambodia</span>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviev" class="reviews-block">
+        <div class="container">
+            <div class="reviews-block__cards">
+                <div class="review">
+                    <div class="review__content">
+                        <div class="review__qoute"></div>
+                        <div class="review__text">Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</div>
+                        <a href="" class="review__name">-Vand D</a>
+                        <div class="review__nickname">Happy Treloo</div>
+                        <div class="review__avatar">
+                            <img src="/images/avatar.jpg" alt="">
+                            <div class="review__reting">
+                                <div class="rating">
+                                    <div class="rating__img"></div>
+                                    <span>4.5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="review__content">
+                        <div class="review__qoute"></div>
+                        <div class="review__text">Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</div>
+                        <a href="" class="review__name">-Vand D</a>
+                        <div class="review__nickname">Happy Treloo</div>
+                        <div class="review__avatar">
+                            <img src="/images/avatar_1.jpg" alt="">
+                            <div class="review__reting">
+                                <div class="rating">
+                                    <div class="rating__img"></div>
+                                    <span>4.9</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-block__actions">
+               <div class="reviews-block__prev">
+                <div></div>
+               </div>
+               <div class="reviews-block__next">
+                <div></div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <section class="discount-block">
+        <div class="container">
+            <div class="discount-block__content">
+                <h2 class="tittle tittle_center">Don’t Miss The 50% Discount if You register Today</h2>
+                <div class="button button__light">Register Today</div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__copyright">© 2022 Treloo LLC - All right reserved.</div>
+            <div class="footer__menu">
+                <a href="" class="footer__menu-item">Review</a>
+                <a href="" class="footer__menu-item">Tips</a>
+                <a href="" class="footer__menu-item">Alerts</a>
+                <a href="" class="footer__menu-item">Blog</a>
+            </div>
+        </div>
+    </footer>
+</main>
 </body>
 </html>
